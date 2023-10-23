@@ -1,0 +1,10 @@
+lib.path = "main.rs"
+
+[package]
+name = "ethers_bug_0"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+market_maker = { git = "https://github.com/mekosko/market_maker.git" }
+foundry-evm = { git = "https://github.com/foundry-rs/foundry" }
